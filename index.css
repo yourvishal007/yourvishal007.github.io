@@ -180,6 +180,7 @@ h1{
 
 
 
+
 @media only screen and (max-width: 990px){
 	
 	.html, .css{
@@ -191,14 +192,15 @@ h1{
 	header{
 		justify-content: center;
 	}
-	
-	aside{
-		display: none;
-	}
 	.tagline{
 		display: none;
+		margin-top:0px;
+		margin-bottom: 20px;
 	}
 	.navleft{
+		display: none;
+	}
+	aside{
 		display: none;
 	}
 }
